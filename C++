@@ -1,0 +1,14 @@
+#include <iostream>
+#include <string>
+
+int main() {
+    // Define a constant for the city name
+    const std::string city = "Mehsana";
+    const std::string state = "Gujarat";
+
+    // Print a welcoming message using standard output
+    std::cout << "Jai Swaminarayan! Welcome to " << city << ", " << state << ".\n";
+    std::cout << "Known for Dudhsagar Dairy and Kirti Toran.\n";
+
+    return 0; // Indicates successful execution
+}
