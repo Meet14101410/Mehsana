@@ -1,0 +1,12 @@
+# Function to display the Mehsana greeting
+def greet_mehsana():
+    # Variables are dynamically typed
+    city_name = "Mahesana"
+    founding_year = 1358
+    
+    # Use f-strings for easy variable insertion
+    print(f"Mehsana: The city established by Mehsaji Chavda in {founding_year} AD.")
+    print("Welcome to the land of Oil, Gas, and Dairy.")
+
+# Call the function to run the program
+greet_mehsana()
