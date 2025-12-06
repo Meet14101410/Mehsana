@@ -1,0 +1,11 @@
+class MehsanaInfo {
+    public static void main(String[] args) {
+        // Simple string variables
+        String city = "Mehsana";
+        String fact = "Asia's largest dairy cooperative.";
+
+        // Print the message using the standard system output
+        System.out.println("Hello from " + city + " City!");
+        System.out.println("It is home to Dudhsagar Dairy, " + fact);
+    }
+}
